@@ -1,0 +1,17 @@
+{{define "layout"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GoApp</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+    {{template "navbar"}}
+    <div>
+        {{template "content" . }}
+    </div>
+</body>
+<script src="/static/js/main.js"></script>
+</html>
+{{end}}

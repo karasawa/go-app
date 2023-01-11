@@ -1,0 +1,12 @@
+{{define "content"}}
+<h1>login</h1>
+<form action="/authenticate" method="post">
+    <h2>GoApp</h2>
+    <div class="formSet">
+        <input id="name" type="text" name="name" placeholder="ユーザー名"/>
+        <input id="email" type="text" name="email" placeholder="メールアドレス"/>
+        <input id="password" type="password" name="password" placeholder="パスワード"/>
+        <button type="submit">ログイン</button>
+    </div>
+</form>
+{{end}}

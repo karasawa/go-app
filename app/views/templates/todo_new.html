@@ -1,0 +1,11 @@
+{{define "content"}}
+<form action="/todos/save" method="post">
+    <div>TodosCreate</div>
+    <div>
+      <textarea name="content" id="content" placeholder="Todoを追加" rows="4"></textarea>
+      <br/>
+      <br/>
+      <button type="submit">作成</button>
+    </div>
+</form>
+{{end}}
